@@ -8,6 +8,28 @@ hint2 = random.randrange(num, max_number)
 hint3 = random.randrange(min_number, num)
 hint4 = random.randrange(num, max_number)
 
+if hint2 <= hint4:
+    hint4 = random.randrange(num, max_number)
+if hint2 <= hint4:
+    hint4 = random.randrange(num, max_number)
+if hint2 <= hint4:
+    hint4 = random.randrange(num, max_number)
+if hint2 <= hint4:
+    hint4 = random.randrange(num, max_number)
+if hint2 <= hint4:
+    hint4 = random.randrange(num, max_number)
+
+if hint1 >= hint3:
+    hint3 = random.randrange(min_number, num)
+if hint1 >= hint3:
+    hint3 = random.randrange(min_number, num)
+if hint1 >= hint3:
+    hint3 = random.randrange(min_number, num)
+if hint1 >= hint3:
+    hint3 = random.randrange(min_number, num)
+if hint1 >= hint3:
+    hint3 = random.randrange(min_number, num)
+
 if max_number in (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15):
     print("Please Pick a number over 15!")
 else:
