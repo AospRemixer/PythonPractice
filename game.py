@@ -1,8 +1,8 @@
 import random
 
-max_number = int(input('Enter the max number [Minimum 15]: '))
+max_number = int(input('Enter the max number [Minimum 25]: '))
 min_number = 1 
-num = random.randrange(1, max_number - 15)
+num = random.randrange(1, max_number)
 hint1 = random.randrange(min_number, num)
 hint2 = random.randrange(num, max_number)
 hint3 = random.randrange(min_number, num)
@@ -30,7 +30,7 @@ if hint1 >= hint3:
 if hint1 >= hint3:
     hint3 = random.randrange(min_number, num)
 
-if max_number in (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15):
+if max_number in (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24):
     print("Please Pick a number over 15!")
 else:
     print(f"The Number is {hint1} or more!")
